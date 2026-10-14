@@ -12,21 +12,24 @@
 }
 
 .conference-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 20px;
     align-items: stretch;
+    margin-bottom: 14px;
 }
 
 .conference-info-column,
 .conference-image-column {
-    margin-bottom: 16px;
+    min-width: 0;
 }
 
 .site-header .jumbotron {
-    height: 100%;
-    min-height: 300px;
-    border-radius: 14px;
+    min-height: 270px;
+    border-radius: 8px;
     background: linear-gradient(135deg, #edf3f8, #dde8f2);
     border: 1px solid #d4e0eb;
-    padding: 28px 24px;
+    padding: 22px 20px;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -37,17 +40,17 @@
 }
 
 .jumbotron .conference-edition {
-    font-size: 1.9rem;
+    font-size: 1.75rem;
     font-weight: 700;
     letter-spacing: 0.04em;
-    margin: 0 0 12px;
+    margin: 0 0 10px;
 }
 
 .jumbotron .conference-title {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 700;
     line-height: 1.35;
-    margin: 0 0 18px;
+    margin: 0 0 16px;
     overflow-wrap: break-word;
 }
 
@@ -66,8 +69,8 @@
 
 .site-header .carousel {
     height: 100%;
-    min-height: 300px;
-    border-radius: 14px;
+    min-height: 270px;
+    border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 16px rgba(32, 54, 77, 0.10);
 }
@@ -75,7 +78,7 @@
 .site-header .carousel-inner,
 .site-header .carousel-item {
     height: 100%;
-    min-height: 300px;
+    min-height: 270px;
 }
 
 .carousel-item > img {
@@ -94,7 +97,19 @@
 
     .site-header .jumbotron {
         min-height: 0;
-        padding: 24px 20px;
+        padding: 20px 18px;
+    }
+
+    .conference-hero {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 14px;
+    }
+
+    .site-header .carousel,
+    .site-header .carousel-inner,
+    .site-header .carousel-item {
+        height: 180px;
+        min-height: 180px;
     }
 }
 

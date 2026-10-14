@@ -1,8 +1,10 @@
 <header class="site-header">
-    <div class="row conference-hero">
+    <div class="row">
+      <div class="col-12 col-xl-10 offset-xl-1">
+       <div class="conference-hero">
 
         <!--conference info-->
-        <div class="col-12 col-md-6 conference-info-column">
+        <div class="conference-info-column">
 
             <div class="jumbotron">
                 {% if site.data.conference.logo_path %}
@@ -17,7 +19,7 @@
         </div>     
 
         <!--slide show-->
-        <div class="col-12 col-md-6 conference-image-column">
+        <div class="conference-image-column">
                 
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
@@ -42,6 +44,8 @@
                         </div>
                 </div>
         </div>
+       </div>
+      </div>
     </div>
 
     <div class="row">
