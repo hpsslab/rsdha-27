@@ -1,0 +1,156 @@
+full_title: RSDHA26 4th Workshop on Redefining Scalability for Diversely Heterogeneous Architectures
+short_title: RSDHA 2026
+email: belviranli@mines.edu 
+description: > # this means to ignore newlines until "baseurl:"
+location: Osaka, Japan, 2026 <br> (Collocated with HPCAsia'26)
+date: January 26, 2026
+# logo_path: ./assets/images/rsdha.png
+slideshow:
+  - id: 0
+    image_path: ./assets/images/logo.jpg
+    description: hpcasia26
+    # photographer_name: Mike Boening
+    # photographer_link: https://www.flickr.com/photos/memoriesbymike/
+    active: True
+  - id: 1
+    image_path: ./assets/images/keyVisual.jpg
+    description: hpcasia26
+    # photographer_name: Bryan Nabong
+    # photographer_link: https://www.flickr.com/photos/bongarang/
+
+navbar:
+  - id: 0
+    label: Home
+    path: /
+    visible: True
+  - id: 1
+    label: Organization
+    path: /organization.html
+    visible: True
+  - id: 2
+    label: Call for Papers
+    path: /cfp.html
+    visible: True
+  - id: 3
+    label: Submission
+    path: /submission.html
+    visible: True
+  - id: 4
+    label: Program
+    path: /program.html
+    visible: True
+  # - id: 5
+  #   label: Venue
+  #   path: /venue.html
+  #   visible: True
+  - id: 5
+    label: Registration
+    path: /registration.html
+    visible: True
+deadlines:
+  - date: 2025-9-26
+    timezone: AOE
+    text: Initial dissemination of call for papers
+    pass_due: False
+  - date: 2025-11-03
+    timezone: AOE
+    text: Paper submissions deadline
+    pass_due: False
+  - date: 2025-11-26
+    text: Notification of Acceptance
+    pass_due: False
+  - date: 2025-12-11
+    text: Camera-ready Papers
+    pass_due: False
+  - date: 2026-01-26
+    text: Workshop
+    pass_due: False
+news:
+  - date: 2025-9-30
+    text: Website online
+# sponsors:
+#   - name: ACM
+#     logo_path: ./assets/images/sponsors/acm-logo.png
+#   - name: IEEE
+#     logo_path: ./assets/images/sponsors/ieee-logo.gif
+# social_media:
+#   facebook_link: https://www.facebook.com/hotwebseries/
+#   twitter_link:
+program_chair:
+  - name: Seyong Lee
+    org: Oak Ridge National Laboratory
+    homepage: https://seyonglee.github.io
+  - name: Mehmet E. Belviranli
+    org: Colorado School of Mines
+    homepage: http://mehmet.belviranli.com/
+  - name: Ali Akoglu
+    org: University of Arizona
+    homepage: https://ece.engineering.arizona.edu/faculty-staff/faculty/ali-akoglu/
+  - name: Keita Teranishi
+    org: Oak Ridge National Laboratory
+    homepage: https://www.ornl.gov/staff-profile/keita-teranishi
+#pc_chair:
+#  - name: Mohammad Alaul Haque Monil
+#    org: Oak Ridge National Laboratory (ORNL)
+keynote_speakers:
+  - name: Mitsuhisa Sato
+    org: RIKEN
+  - name: Omri Wolf
+    org: LIghtSolver
+panelists:
+  - name: Jaejin Lee
+    org: Seoul National University
+  - name: Kentaro Sano
+    org: RIKEN
+  - name: Franz Franchetti
+    org: Carnegie Mellon University
+  - name: Ryohei KOBAYASHI
+    org: Institute of Science Tokyo
+#steering_committees:
+#  - name: Ulya Karpuzcu 
+#    org:  University of Minnesota, Twin Cities
+#  - name: Ivy B. Peng
+#    org: KTH Royal Institute of Technology
+#  - name: Sameer Shend
+#    org:  University of Oregon
+#  - name: Mohamed Wahib
+#    org: RIKEN Center for Computational Science
+technical_program_committees:
+  - name: Ismail Akturk
+    org: Ozyegin University
+  - name: Kei Davis
+    org: Los Alamos National Laboratory
+  - name: Roberto	Gioiosa
+    org: Pacific Northwest National Laboratory (PNNL)
+  - name: Callie Hao
+    org: Georgia Institute of Technology
+  - name: Sahil Hassan
+    org: University of Arizona
+  - name: Engin Kayraklioglu
+    org: Hewlett Packard Enterprise
+  - name: Jungwon Kim
+    org: NVIDIA 
+  - name: Joshua Mack
+    org: University of Arizona
+  - name: Pak Markthub
+    org: NVIDIA 
+  - name: EunJung (EJ) Park
+    org: Qualcomm Inc
+  - name: Daniel Wong
+    org: University of California, Riverside 
+  - name: Bo Wu
+    org: Colorado School of Mines
+  - name: Yuanchao Xu
+    org: University of California, Santa Cruz
+  - name: Liang Zhou
+    org: Meta
+  - name: Jonathan Lifflander
+    org: Sandia National Labs, California
+  - name: Senthilkumar Thoravi Rajavel
+    org: Synopsys
+  - name: Kaushik Ravichandran
+    org: Google
+#webmaster:
+#  - name: Ismet Dagli
+#    org: Colorado School of Mines (USA)
+

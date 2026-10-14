@@ -1,0 +1,107 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: page
+slide_id: 0
+---
+
+
+
+
+<div class="row">
+    <div style="min-width: 100%" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-justify conference-text">
+    <div style="float: right" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <!--######### important dates ##########-->
+            {% include card-important-dates.html %}
+            <!--####################################-->
+            <!--######### news #####################-->
+            {% include card-news.html %}
+            <!--####################################-->
+    </div>
+
+            <h5>WELCOME TO RSDHA 2026!</h5>
+
+            <p class="lead">
+                The RSDHA 2026 workshop is scheduled to take place on January 26, 2026 and will be held at Osaka, Japan in conjunction with 
+                <a href="https://www.sca-hpcasia2026.jp/"> HPCAsia'26</a>.
+            </p>
+
+            <p> <a href="https://www.sca-hpcasia2026.jp/program.html"> Official HPCAsia'26 RSDHA 2026 session webpage</a> </p>
+
+            <p> "Scalable computing" has governed another dimension. Contrary to the traditional 
+                definition, which is often proportional to the total number of nodes or transistors working collaboratively to compute a given 
+                workload, the newly rising dimension rather 
+                scales with the number of different type of processors sharing the computational load. 
+                The far end of this dimension is often utilized in energy and latency sensitive 
+                environments (e.g. mobile, autonomous and edge computing) where heterogeneity excels most. 
+                For example, a state-of-the-art mobile processor such as Apple's A11 series embeds more than 
+                40 specialized IP blocks to pack a very high OPs/Watt ratio in a pocket-portable form factor. 
+                On the other hand, node uniformity and processor homogeneity still remain a 
+                common trend in high performance computing (HPC) and data center environments, 
+                due to simplicity they provide in terms of programmability and scalability. </p>
+
+            <p> The proposed workshop targets to investigate an un-explored region of the two-dimensional 
+                space of traditional node-based (i.e., horizontal) and heterogeneity-based (i.e., vertical) scaling. 
+                Nodes in distributed machines are expected to gradually employ a more diverse 
+                set of accelerators to accommodate the increasing computational and power demands of rapidly 
+                evolving scientific, machine-learning and data-center workloads. In achieving this goal, there are 
+                many lessons to be learned from today's system-on-chips (SoC), such as Apple's M1 and A1X Bionic, 
+                and Qualcomm's Snapdragon series, as they already successfully solved aforementioned challenges 
+                in the micro-scale. On the other hand, mobile and autonomous platforms embedding these heterogeneous 
+                SoCs are becoming more connected to each other (e.g., swarm-computing) and to the cloud (e.g., edge-computing). 
+                The techniques used in traditional scaling for HPC could be adopted to overcome the connectivity 
+                challenges and enable distributed processing for such systems. </p>
+
+                <p>In summary, the proposed workshop seeks answers for two primary questions:</p>
+                
+                <ul>
+                <li>Vertical Scaling: How could the traditional HPC applications 
+                    adopt the architectural, programming and runtime approaches employed 
+                    by the state-of-the-art diversely heterogeneous systems?</li>
+                <li>Horizontal Scaling: How could the diversely heterogeneous 
+                    architectures for mobile and autonomous systems take examples 
+                    from traditional HPC to beat the multi-node scalability challenges
+                    as they become increasingly more connected?</li>
+                </ul>
+        
+            <p class="lead">RSDHA 2026 is held in conjunction with The International Conference on High Performance Computing in Asia-Pacific Region (HPCAsia) 2026. <img src="assets/images/hpcasia2026-logo.png"  height="45"></p>
+
+            <h6>Workshop Scope (Areas of interest)</h6>
+            <p>The workshop will categorize the panelist expertise and paper submissions under two primary tracks:</p>
+            <ul>
+                <li>Track 1 - Vertical Scaling: This track will cover the studies that will 
+                    enable the HPC applications to utilize a more diverse range of processors. 
+                    The areas of interest include but not limited to:
+                    <ul>
+                        <li>Performance-portable parallel programming paradigms for newly emerging accelerator types.</li>
+                        <li>Runtimes for arbitrary degrees of heterogeneous diversity.</li>
+                        <li>Analytical modeling for general-purpose and domain-specific programmable accelerators.</li>
+                        <li>Application of heterogeneous programming/scheduling techniques used in embedded and mobile computing to HPC systems and vice versa.</li>
+                        <li>Case studies using the vertical scaling techniques</li>
+                    </ul></li>
+                <li>Track 2 - Horizontal Scaling: This track will address the challenges as current 
+                    highly diverse platforms (e.g., mobile and embedded platforms) are scaled 
+                    vertically (e.g., teamed up)  for collaborative execution. The areas of interest include but not limited to:
+                    <ul>
+                        <li>Communication and memory access challenges for clustered execution of highly diverse platforms.</li>
+                        <li>Analytical resource consumption modeling and decision making mechanisms for edge-cloud systems.</li>
+                        <li>Compositional resource management and workload balancing across the collaborative clusters.</li>
+                        <li>Fault tolerant and resilient execution for mobile and autonomous systems.</li>
+                        <li>Case studies using the horizantal scaling techniques</li>
+                    </ul></li>
+            </ul>
+   
+
+           
+                 {% include contact-us.html %}
+
+    </div>
+</div>
+
+
+
+
+
+
+
