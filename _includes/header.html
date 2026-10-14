@@ -1,22 +1,23 @@
 <header class="site-header">
-    <div class="row">
+    <div class="row conference-hero">
 
         <!--conference info-->
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 col-xl-4 offset-xl-1">
+        <div class="col-12 col-md-6 conference-info-column">
 
             <div class="jumbotron">
                 {% if site.data.conference.logo_path %}
                 <img class="img-fluid" src="{{ site.data.conference.logo_path }}" alt="{{ site.data.conference.short_title }}">
                 {% endif %}
-                <p class="conference-date text-center mt-0">{{ site.data.conference.date }}</p>
-                <h5 class="conference-title text-center mt-4 mb-4">{{ site.data.conference.full_title }}</h5>
-                <p class="text-center mb-0">{{ site.data.conference.location }}</p>
+                <p class="conference-edition">{{ site.data.conference.short_title }}</p>
+                <h1 class="conference-title">{{ site.data.conference.full_title | remove: 'RSDHA27 ' }}</h1>
+                <p class="conference-date">{{ site.data.conference.date }}</p>
+                <p class="conference-location">{{ site.data.conference.location }}</p>
             </div>
 
         </div>     
 
         <!--slide show-->
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-7 col-xl-6">
+        <div class="col-12 col-md-6 conference-image-column">
                 
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 

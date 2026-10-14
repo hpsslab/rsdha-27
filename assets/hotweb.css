@@ -7,34 +7,95 @@
   -webkit-backface-visibility: hidden;
 }
 
+.site-header {
+    margin-top: 32px;
+}
+
+.conference-hero {
+    align-items: stretch;
+}
+
+.conference-info-column,
+.conference-image-column {
+    margin-bottom: 16px;
+}
+
+.site-header .jumbotron {
+    height: 100%;
+    min-height: 300px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #edf3f8, #dde8f2);
+    border: 1px solid #d4e0eb;
+    padding: 28px 24px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #20364d;
+    box-shadow: 0 4px 16px rgba(32, 54, 77, 0.10);
+}
+
+.jumbotron .conference-edition {
+    font-size: 1.9rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    margin: 0 0 12px;
+}
+
+.jumbotron .conference-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin: 0 0 18px;
+    overflow-wrap: break-word;
+}
+
+.jumbotron .conference-date {
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin: 0 0 12px;
+}
+
+.jumbotron .conference-location {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #4b6278;
+    margin: 0;
+}
+
+.site-header .carousel {
+    height: 100%;
+    min-height: 300px;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(32, 54, 77, 0.10);
+}
+
+.site-header .carousel-inner,
+.site-header .carousel-item {
+    height: 100%;
+    min-height: 300px;
+}
+
 .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.jumbotron,
-.carousel-item {
-    height: 270px;
-    border-radius: 0;
-}
+@media (max-width: 767px) {
+    .site-header {
+        margin-top: 20px;
+    }
 
-.jumbotron {
-    background-color: #e0e8ef;
-    padding: 0px 5px 0px 5px;
-    margin: 0px 0px 5px 0px;
-}
-
-
-.jumbotron p {
-    font-size: 1.1em;
-}
-.jumbotron .conference-date {
-    font-size: 1em;
-}
-.jumbotron .conference-title {
-    font-size: 1.5em;
-    font-weight: 700;
+    .site-header .jumbotron {
+        min-height: 0;
+        padding: 24px 20px;
+    }
 }
 
 .alert,
