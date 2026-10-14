@@ -1,20 +1,20 @@
-full_title: RSDHA26 4th Workshop on Redefining Scalability for Diversely Heterogeneous Architectures
-short_title: RSDHA 2026
+full_title: RSDHA27 5th Workshop on Redefining Scalability for Diversely Heterogeneous Architectures
+short_title: RSDHA 2027
 email: belviranli@mines.edu 
 description: > # this means to ignore newlines until "baseurl:"
-location: Osaka, Japan, 2026 <br> (Collocated with HPCAsia'26)
-date: January 26, 2026
+location: Yonsei University, Seoul, Republic of Korea <br> (Collocated with HPCAsia 2027)
+date: Friday, February 19, 2027 <br> 9:00 a.m.–12:30 p.m. (KST)
 # logo_path: ./assets/images/rsdha.png
 slideshow:
   - id: 0
-    image_path: ./assets/images/logo.jpg
-    description: hpcasia26
+    image_path: ./assets/images/hpcasia2027-banner.jpg
+    description: Winter scenery in Seoul from the official HPCAsia 2027 website
     # photographer_name: Mike Boening
     # photographer_link: https://www.flickr.com/photos/memoriesbymike/
     active: True
   - id: 1
-    image_path: ./assets/images/keyVisual.jpg
-    description: hpcasia26
+    image_path: ./assets/images/hpcasia2027-venue.jpg
+    description: Baekyang Nuri, Yonsei University, HPCAsia 2027 venue
     # photographer_name: Bryan Nabong
     # photographer_link: https://www.flickr.com/photos/bongarang/
 
@@ -48,26 +48,12 @@ navbar:
     path: /registration.html
     visible: True
 deadlines:
-  - date: 2025-9-26
-    timezone: AOE
-    text: Initial dissemination of call for papers
-    pass_due: False
-  - date: 2025-11-03
-    timezone: AOE
-    text: Paper submissions deadline
-    pass_due: False
-  - date: 2025-11-26
-    text: Notification of Acceptance
-    pass_due: False
-  - date: 2025-12-11
-    text: Camera-ready Papers
-    pass_due: False
-  - date: 2026-01-26
-    text: Workshop
+  - date: 2027-02-19
+    text: Workshop (Friday morning, 9:00 a.m.–12:30 p.m. KST)
     pass_due: False
 news:
-  - date: 2025-9-30
-    text: Website online
+  - date: 2026-10-14
+    text: RSDHA 2027 accepted at HPCAsia 2027; the workshop will take place on Friday morning, February 19, in Seoul.
 # sponsors:
 #   - name: ACM
 #     logo_path: ./assets/images/sponsors/acm-logo.png
@@ -92,20 +78,8 @@ program_chair:
 #pc_chair:
 #  - name: Mohammad Alaul Haque Monil
 #    org: Oak Ridge National Laboratory (ORNL)
-keynote_speakers:
-  - name: Mitsuhisa Sato
-    org: RIKEN
-  - name: Omri Wolf
-    org: LIghtSolver
-panelists:
-  - name: Jaejin Lee
-    org: Seoul National University
-  - name: Kentaro Sano
-    org: RIKEN
-  - name: Franz Franchetti
-    org: Carnegie Mellon University
-  - name: Ryohei KOBAYASHI
-    org: Institute of Science Tokyo
+keynote_speakers: null
+panelists: null
 #steering_committees:
 #  - name: Ulya Karpuzcu 
 #    org:  University of Minnesota, Twin Cities

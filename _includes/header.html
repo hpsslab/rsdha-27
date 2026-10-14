@@ -5,7 +5,9 @@
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 col-xl-4 offset-xl-1">
 
             <div class="jumbotron">
-                <img class="img-fluid" src="{{ site.data.conference.logo_path }}">
+                {% if site.data.conference.logo_path %}
+                <img class="img-fluid" src="{{ site.data.conference.logo_path }}" alt="{{ site.data.conference.short_title }}">
+                {% endif %}
                 <h5 class="text-center mt-0">{{ site.data.conference.date }}</h5>
                 <p class="text-center mt-4 mb-4">{{ site.data.conference.full_title }}</p>
                 <p class="text-center mb-0">{{ site.data.conference.location }}</p>
@@ -21,7 +23,7 @@
                         <div class="carousel-inner" role="listbox">
                             
                             {% for slide in site.data.conference.slideshow %}
-                            {% if page.slide_id and page.slide_id  == slide.id %}
+                            {% if forloop.first %}
                             <div class="carousel-item active">
                             {% else %}
                             <div class="carousel-item">

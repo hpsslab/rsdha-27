@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-baseurl: "/rsdha-23"
-production_url : "http://hypesys.github.io/rsdha-23"
-BASE_PATH : "http://hypesys.github.io/rsdha-23"
+baseurl: "/rsdha-27"
+production_url : "https://hpss.mines.edu/rsdha-27"
+BASE_PATH : "https://hpss.mines.edu/rsdha-27"
 
 
 #baseurl: "" # the subpath of your site, e.g. /blog
-url: http://hypesys.github.io/rsdha-23 # the base hostname & protocol for your site, e.g. http://example.com
+url: https://hpss.mines.edu
 css: ./assets/hotweb.css
 
 # Build settings
@@ -29,7 +29,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-timezone: America/Chicago
+timezone: Asia/Seoul
 google_analytics: G-M8730HZECD
 
 
