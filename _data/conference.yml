@@ -53,7 +53,7 @@ deadlines:
     pass_due: False
 news:
   - date: 2026-10-14
-    text: RSDHA 2027 accepted at HPCAsia 2027; the workshop will take place on Friday morning, February 19, in Seoul.
+    text: RSDHA 2027 will take place at HPCAsia 2027 on Friday morning, February 19, in Seoul.
 # sponsors:
 #   - name: ACM
 #     logo_path: ./assets/images/sponsors/acm-logo.png
