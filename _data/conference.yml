@@ -3,7 +3,7 @@ short_title: RSDHA 2027
 email: belviranli@mines.edu 
 description: > # this means to ignore newlines until "baseurl:"
 location: Yonsei University, Seoul, Republic of Korea <br> (Collocated with HPCAsia 2027)
-date: Friday, February 19, 2027 <br> 9:00 a.m.–12:30 p.m. (KST)
+date: Friday, February 19, 2027
 # logo_path: ./assets/images/rsdha.png
 slideshow:
   - id: 0
