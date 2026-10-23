@@ -42,7 +42,7 @@ scaling of the current and upcoming HPC and mobile/embedded systems.
 
 The scope of this workshop can be categorized in two primary areas: 
 1) Vertical Scaling, which will cover the studies that will enable HPC 
-applications to utilize a more diverse range of processors, and 
+and emerging AI applications to utilize a more diverse range of processors, and 
 2) Horizontal Scaling, which will cover the studies that investigate the 
 application of the traditional HPC techniques to the mobile and 
 autonomous systems to beat the multi-node scalability challenges as the 
@@ -53,12 +53,15 @@ mobile/embedded systems become increasingly more connected.
 
 The research areas of interest include but are not limited to: 
 - Performance-portable parallel programming paradigms for emerging 
-accelerator types 
+accelerator types, including AI/ML accelerators 
 - Runtimes for arbitrary degrees of heterogeneous diversity 
 - Analytical modeling for general-purpose and domain-specific 
 programmable accelerators 
 - Application of heterogeneous programming/scheduling techniques used 
 in embedded and mobile computing to HPC systems and vice versa 
+- Programming models, compiler, and runtime techniques for mapping AI/ML workloads onto diversely heterogeneous architectures
+- AI-assisted compilation, runtime optimization, resource management, and workload scheduling for heterogeneous systems
+- Co-execution and optimization of traditional HPC and AI workloads across CPUs, GPUs, NPUs, and other domain-specific accelerators
 - Communication and memory access challenges for clustered execution 
 of highly diverse platforms 
 - Analytical resource consumption modeling and decision making 
@@ -67,6 +70,9 @@ mechanisms for edge-cloud and HPC systems
 collaborative clusters 
 - Fault tolerant and resilient execution for mobile/autonomous 
 systems and HPC systems 
+- Scalable execution of distributed AI/ML workloads across heterogeneous HPC, edge, and cloud resources
+- Resource management and scheduling for AI-driven scientific workflows combining simulation, data analytics, and machine learning
+- Communication, memory, and data-movement optimization for large-scale AI workloads on diversely heterogeneous systems
 - Case studies using the vertical/horizontal scaling techniques
 
 
@@ -81,7 +87,7 @@ https://hpcasia2027.org/2027/pages_submission/call_for_workshops.vm
 
 --Important Dates--
 
-- Submission deadlines: To be announced
+- Submission deadlines: November 30, 2026 AoE
 - Workshop: Friday, February 19, 2027, 9:00 a.m.–12:30 p.m. (KST, UTC+9)
 
 --Workshop Organizers-- 
