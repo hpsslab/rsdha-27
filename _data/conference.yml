@@ -78,8 +78,10 @@ program_chair:
 #pc_chair:
 #  - name: Mohammad Alaul Haque Monil
 #    org: Oak Ridge National Laboratory (ORNL)
-keynote_speakers: null
-panelists: null
+keynote_speakers:
+  - name: Jaejin Lee
+    org: Seoul National University
+#panelists: null
 #steering_committees:
 #  - name: Ulya Karpuzcu 
 #    org:  University of Minnesota, Twin Cities
