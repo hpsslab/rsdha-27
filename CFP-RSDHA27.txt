@@ -78,16 +78,26 @@ systems and HPC systems
 
 --Submissions--
 
-Submission instructions, paper formats, review details, deadlines, and
-the submission link will be announced.
-HPCAsia 2027 conference proceedings will not include workshop papers.
-Any separate RSDHA publication arrangements will be announced.
-Official workshop information:
-https://hpcasia2027.org/2027/pages_submission/call_for_workshops.vm
+- Authors are invited to submit original papers in two separate tracks:
+    - Full Paper: submit regular research papers in a two-column format with
+at least 8 pages and at most 10 pages in length, which include tables, figures, and references. 
+    - Short Paper: submit initial results and position/work-in-progress papers 
+in a two-column format with at least 4 pages and at most 6 pages in length, which include tables, figures, and references.
+- All submissions should be formatted according to the ACM Proceedings Style 
+listed in the HPCAsia 2027 website (https://hpcasia2027.org/2027/pages_submission/call_for_papers.vm)
+- The review process is double-blind.
+- There will be no revision rebuttal process, and the review will be one-pass.
+- Accepted full papers will be published in ACM-affiliated proceedings.
+    - Short papers will not appear in the proceedings.
+- At least one author of an accepted paper must register for and attend the workshop.
+- Please submit papers through the EasyChair site:
+https://easychair.org/conferences?conf=rsdha27
 
 --Important Dates--
 
 - Submission deadlines: November 30, 2026 AoE
+- Notification of acceptance: December 21, 2026
+- Camera-ready papers: January 18, 2027
 - Workshop: Friday, February 19, 2027, 9:00 a.m.–12:30 p.m. (KST, UTC+9)
 
 --Workshop Organizers-- 
