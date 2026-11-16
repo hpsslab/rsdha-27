@@ -108,8 +108,8 @@ technical_program_committees:
     org: Los Alamos National Laboratory
   - name: Roberto	Gioiosa
     org: Pacific Northwest National Laboratory (PNNL)
-  - name: Callie Hao
-    org: Georgia Institute of Technology
+#  - name: Callie Hao
+#    org: Georgia Institute of Technology
   - name: Sahil Hassan
     org: University of Arizona
   - name: Engin Kayraklioglu

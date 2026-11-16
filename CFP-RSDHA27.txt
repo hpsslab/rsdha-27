@@ -91,7 +91,7 @@ listed in the HPCAsia 2027 website (https://hpcasia2027.org/2027/pages_submissio
     - Short papers will not appear in the proceedings.
 - At least one author of an accepted paper must register for and attend the workshop.
 - Please submit papers through the EasyChair site:
-https://easychair.org/conferences?conf=rsdha27
+https://easychair.org/conferences/?conf=rsdha2027
 
 --Important Dates--
 
