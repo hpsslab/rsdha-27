@@ -106,36 +106,36 @@ technical_program_committees:
     org: Ozyegin University
   - name: Kei Davis
     org: Los Alamos National Laboratory
-  - name: Roberto	Gioiosa
-    org: Pacific Northwest National Laboratory (PNNL)
-#  - name: Callie Hao
-#    org: Georgia Institute of Technology
   - name: Sahil Hassan
     org: University of Arizona
-  - name: Engin Kayraklioglu
-    org: Hewlett Packard Enterprise
   - name: Jungwon Kim
     org: NVIDIA 
+  - name: Daniel Wong
+    org: University of California, Riverside 
+  - name: Bo Wu
+    org: Colorado School of Mines
+  - name: Liang Zhou
+    org: Meta
+  - name: Roberto	Gioiosa
+    org: Pacific Northwest National Laboratory (PNNL)
+  - name: Kaushik Ravichandran
+    org: Google
   - name: Joshua Mack
     org: University of Arizona
   - name: Pak Markthub
     org: NVIDIA 
   - name: EunJung (EJ) Park
     org: Qualcomm Inc
-  - name: Daniel Wong
-    org: University of California, Riverside 
-  - name: Bo Wu
-    org: Colorado School of Mines
-  - name: Yuanchao Xu
-    org: University of California, Santa Cruz
-  - name: Liang Zhou
-    org: Meta
   - name: Jonathan Lifflander
     org: Sandia National Labs, California
-  - name: Senthilkumar Thoravi Rajavel
-    org: Synopsys
-  - name: Kaushik Ravichandran
-    org: Google
+#  - name: Senthilkumar Thoravi Rajavel
+#    org: Synopsys
+  - name: Engin Kayraklioglu
+    org: Hewlett Packard Enterprise
+  - name: Yuanchao Xu
+    org: University of California, Santa Cruz
+#  - name: Callie Hao
+#    org: Georgia Institute of Technology
 #webmaster:
 #  - name: Ismet Dagli
 #    org: Colorado School of Mines (USA)
